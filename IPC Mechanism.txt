@@ -1,0 +1,12 @@
+Below are the IPC mechansims which is used to communciate between the process,
+
+
+
+Thread:
+
+1) Threads has its own stack containing local variable and function call information
+2) Threads share data area and heap section.
+3) Threads can communicate with each other via global variablses that they share.
+4) The threading API provides condition variables and mutexes, which are primitives that enables the threads of a process to communciate and syncronise their actions.
+5) The primary advantages of using threads are that they make it easy to share data (via global variables) between cooperating threads and that some algorithms transpose more naturally to a multithreaded implementation than to a multiprocess implementation.
+6) 
